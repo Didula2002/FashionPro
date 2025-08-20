@@ -1,4 +1,3 @@
-
 # 🧥 FashionPro
 
 FashionPro is an **AI and AR-based fashion web application** that allows users to get outfit recommendations through a smart chatbot, try on fashion accessories like glasses and hats using **2D and 3D virtual try-on** features, and purchase products through a complete **e-commerce system**.
@@ -99,4 +98,4 @@ npm start
 - 🧬 AI: PyTorch, TensorFlow, ResNet50, KNN  
 - 💾 Database: MongoDB  
 - 🎯 AR: Snapchat Lens Studio (3D try-on)  
-- ☁️ Hosting & APIs: Cloudinary, Resend API, Stripe  
+- ☁️ Hosting & APIs: Cloudinary, Resend API

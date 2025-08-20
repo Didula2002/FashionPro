@@ -1,0 +1,972 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good day", "Is anyone there?"],
+      "responses": [
+        "Hello there! I'm your personal FashionPro stylist, ready to help you navigate all things style. Whether you need outfit recommendations for a special occasion, want to stay on top of current trends, or are looking to refine your personal style, I'm here with expert fashion advice tailored just for you. What style challenge can we tackle together today?",
+        "Welcome to your personal fashion consultation! As your AI stylist, I specialize in creating customized outfit recommendations, decoding the latest trends, and helping you build a wardrobe that reflects your unique personality. From casual everyday looks to red carpet-worthy ensembles, I've got you covered. Where shall we begin our style journey today?",
+        "Greetings fashion enthusiast! I'm thrilled to assist you with all your styling needs. Whether you're preparing for an important event, refreshing your wardrobe, or simply seeking daily outfit inspiration, I'm here with professional fashion insights and personalized recommendations. How can I help you express your best self through style today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon"],
+      "responses": [
+        "It's been wonderful styling with you! Remember that true confidence comes from wearing what makes you feel your authentic self. Until next time, keep experimenting with fashion and don't be afraid to step outside your comfort zone. Stay stylish and I look forward to our next style session!",
+        "Goodbye for now, fashion friend! I hope our conversation has inspired you to approach your wardrobe with fresh eyes. Whether you're trying a new trend or perfecting your signature look, remember that style is about self-expression. Can't wait to help with your next fashion dilemma!",
+        "Until our next style consultation! Remember that fashion should always be fun and empowering. If you need more outfit ideas, trend breakdowns, or styling tips, I'm always here to help. Keep shining in your unique way and stay tuned to FashionPro for ongoing inspiration!"
+      ]
+    },{
+      "tag": "outfit_picker",
+      "patterns": [
+        "Help me pick an outfit",
+        "Help me pick an outfit!",
+        "Choose an outfit for me",
+        "I need outfit help",
+        "Decide my outfit",
+        "What should I put on",
+        "Outfit selection help",
+        "Pick clothes for me",
+        "Style me today",
+        "I need an outfit idea for today based on the weather and my plans!"
+      ],
+      "responses": [
+        "Let's find you a great look! What's the occasion? (work, casual, special event)",
+        "I'd love to help! What's your preferred style today? (comfy, stylish, professional)",
+        "First, tell me about the weather there so I can suggest appropriate outfits"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Much appreciated!"],
+      "responses": [
+        "You're absolutely welcome! Helping you discover your personal style and navigate the world of fashion is truly my pleasure. Remember that developing great style is a journey - I'm always here whenever you need fresh outfit ideas, trend interpretations, or wardrobe advice. What else can we explore together?",
+        "It's my genuine delight to assist with your fashion needs! Whether we're decoding the latest runway trends or finding practical solutions for your daily wardrobe, I'm committed to making style accessible and enjoyable for you. Your appreciation means everything - let's keep creating looks that make you feel confident!",
+        "Thank YOU for engaging with your personal style journey! Seeing you embrace new fashion possibilities is incredibly rewarding. As your personal stylist, I'm always available to provide tailored recommendations, shopping guidance, and style education. Let's continue building a wardrobe that reflects your unique personality and lifestyle needs."
+      ]
+    },
+    {
+      "tag": "outfit_occasion",
+      "patterns": [
+        "Suggest an outfit for a wedding",
+        "What should I wear for a party?",
+        "I need an outfit for a casual day",
+        "Recommend me an outfit for a formal event"
+      ],
+      "responses": [
+        "For special occasions, the perfect outfit balances appropriateness with personal style. For weddings, consider a midi or maxi dress in luxurious fabrics like chiffon or silk - jewel tones work beautifully for evening, while pastels shine for daytime. Pair with elegant heels and minimal jewelry. For parties, you might opt for a sequin top with tailored trousers or a jumpsuit with statement accessories. Tell me more about the specific event and your style preferences so I can refine these suggestions!",
+        "When dressing for events, we should consider: the venue (indoor/outdoor), time of day, dress code, and your comfort level. Formal events call for tailored separates or elegant gowns in rich fabrics. Business casual might mean a sleek blazer with dark jeans and loafers. Casual days allow for relaxed silhouettes like flowy sundresses or linen separates. Share more details about the occasion and I'll provide customized recommendations that make you look and feel amazing!",
+        "Occasion dressing is all about context - a garden wedding suggests floral prints and wedge heels, while a gala demands evening gowns and sparkling accessories. For work events, a sheath dress with a blazer strikes the perfect professional note. Weekend casual could mean distressed jeans with a crisp white tee and leather jacket. Let me know the specific event type, your role (guest, host, etc.), and any style preferences you have for personalized suggestions!"
+      ]
+    },
+    {
+      "tag": "style_trends",
+      "patterns": [
+        "What are the current fashion trends?",
+        "Show me trending outfits",
+        "What's in style now?"
+      ],
+      "responses": [
+        "This season's standout trends include: 1) Quiet luxury with minimalist silhouettes in premium fabrics like cashmere and silk 2) Denim reinterpretations featuring wide-leg jeans and denim-on-denim looks 3) Romantic Victorian influences with puff sleeves and lace details 4) Bold red hues making a strong statement 5) Leather pants and skirts for edge 6) Platform shoes and boots for height 7) Mix of ultra-feminine and androgynous styles. Would you like me to suggest how to incorporate any of these into your existing wardrobe?",
+        "The current fashion landscape offers exciting diversity: On one hand, we're seeing '90s nostalgia with slip dresses and grunge elements. Simultaneously, futuristic metallics and tech fabrics are trending. Sustainable fashion continues to grow with upcycled materials and vintage revivals. Color-wise, buttery yellows, deep emeralds, and vibrant oranges are everywhere. Accessories are making bold statements with oversized sunglasses and chunky gold jewelry. I can provide detailed styling tips for any of these trends that catch your eye!",
+        "Runway to realway trends right now feature: 1) Oversized blazers paired with everything from bike shorts to evening skirts 2) Knit dresses and sets for comfortable elegance 3) Maxi lengths in both dresses and coats 4) Cut-out details that show skin strategically 5) Two-piece sets for easy coordination 6) Mix of hyper-feminine florals with utilitarian cargo pockets 7) Shoes that make statements - from chunky loafers to delicate strappy sandals. Let me know which trends resonate with you and I'll suggest affordable ways to try them!"
+      ]
+    },
+    {
+      "tag": "personal_style",
+      "patterns": [
+        "How do I find my personal style?",
+        "I want to define my fashion style",
+        "Help me with my style identity"
+      ],
+      "responses": [
+        "Discovering your personal style is a journey of self-exploration. Start by creating a mood board of looks you're drawn to - notice recurring colors, silhouettes, and aesthetics. Analyze your lifestyle needs - how much of your time is work vs leisure? Consider your body type and what flatters it naturally. Most people's style falls into categories like classic, bohemian, minimalist, edgy, or romantic - but yours can be a unique blend. Would you like to take a style quiz or discuss specific looks you admire?",
+        "Developing signature style involves: 1) Understanding what makes you feel confident (certain colors, fits) 2) Identifying wardrobe staples you reach for repeatedly 3) Noticing how you want to be perceived professionally and personally 4) Balancing trends with timeless pieces 5) Creating a color palette that works with your complexion 6) Considering maintenance (dry clean only vs easy care) 7) Allowing room for evolution. I can guide you through exercises to clarify your style identity - would you like to begin?",
+        "Your personal style fingerprint combines: body type considerations, color preferences, lifestyle demands, comfort needs, and personality expression. Start by cleaning out your closet and keeping only what you love wearing. Notice patterns in these keepers. Try creating 'style uniforms' - 3-5 go-to outfit formulas you can rotate. Remember, style isn't static - it should evolve as you do. I can provide personalized exercises and recommendations if you'd like to dive deeper into defining your unique aesthetic!"
+      ]
+    },
+    {
+      "tag": "color_matching",
+      "patterns": [
+        "What colors go well together?",
+        "Help me with color matching",
+        "Which colors suit each other?"
+      ],
+      "responses": [
+        "Color pairing is both science and art! Classic combinations include: navy with camel, blush pink with gray, emerald green with gold, or red with navy. For bold looks, try complementary colors opposite on the wheel (purple/yellow). Analogous colors (blue/green) create harmony. Neutrals (black, white, beige, gray) work with everything. Consider your skin's undertones when selecting colors near your face - cool tones shine in jewel colors, warms in earth tones. Would you like me to analyze which color families might suit you best?",
+        "Masterful color mixing follows these principles: 1) The 60-30-10 rule (dominant, secondary, accent colors) 2) Balancing warm and cool tones 3) Using neutrals as anchors 4) Considering color psychology (blue=calm, red=power) 5) Seasonal color analysis for personal flattery 6) Playing with tones and shades within one hue 7) Unexpected pops of color in accessories. This season, try pairing chocolate brown with bright orange, or sage green with lavender. I can create a personalized color palette for your wardrobe if you'd like!",
+        "Advanced color coordination involves: understanding color temperature (warm vs cool), intensity (bright vs muted), and value (light vs dark). Monochromatic looks (different shades of one color) are always chic. For contrast, pair deep colors with pastels (navy with baby blue). Neutrals allow bold colors to shine. Metallics (gold, silver) serve as neutrals in evening wear. Your skin tone, hair color, and personal preferences should guide your palette. Would you like to explore seasonal color analysis to determine your most flattering hues?"
+      ]
+    },
+    {
+      "tag": "fashion_tips",
+      "patterns": [
+        "Give me some fashion tips",
+        "How can I improve my fashion sense?",
+        "Tips to look more fashionable"
+      ],
+      "responses": [
+        "Elevating your style begins with these fundamentals: 1) Perfect fit is paramount - consider tailoring key pieces 2) Invest in quality basics that form wardrobe building blocks 3) Understand proportions (balance loose tops with fitted bottoms) 4) Develop a cohesive color palette 5) Master layering for dimension 6) Choose accessories intentionally 7) Maintain your clothes properly. Remember, fashion should reflect your personality while making you feel confident. Would you like me to focus on any specific area like workwear or casual style?",
+        "Looking polished effortlessly requires: 1) A well-organized closet where you can see all options 2) Understanding which silhouettes flatter your body type 3) Proper undergarments that create smooth lines 4) Shoes that complement the outfit's formality 5) Seasonal wardrobe rotations to keep things fresh 6) Basic garment care (steaming, proper storage) 7) A signature element (could be a color, jewelry style, etc.). Small details like matching your metals or tucking shirts precisely make big differences. I can provide personalized tips based on your lifestyle if you'd like!",
+        "Transform your style with these pro tips: 1) Always dress for your current body, not your fantasy one 2) Create complete outfits in your closet (photograph them for easy reference) 3) When shopping, consider how new items will work with existing pieces 4) Have go-to outfit formulas for rushed mornings 5) Use accessories to refresh familiar looks 6) Learn basic fashion vocabulary to articulate what you like 7) Follow influencers with similar body types/style preferences. True style isn't about spending more but spending wisely. Would you like a customized list of tips based on your specific fashion challenges?"
+      ]
+    },
+    {
+      "tag": "outfit_recommendation",
+      "patterns": [
+        "What should I wear today?",
+        "Help me pick an outfit",
+        "Recommend an outfit",
+        "What outfit should I choose?",
+        "Suggest me an outfit",
+        "What would you wear today?",
+        "Outfit ideas please",
+        "I need outfit suggestions"
+      ],
+      "responses": [
+        "For a stylish yet practical look today, consider pairing [high-waisted tailored trousers] with a [silk blouse] in a complementary color. Layer with a [structured blazer] for professionalism or a [cashmere cardigan] for comfort. Complete the look with [loafers or block heels] and [minimalist gold jewelry]. This ensemble works for various settings and can transition from day to night by swapping the shoes and adding a bold lip color. Would you like me to adjust this recommendation based on your specific activities or weather?",
+        "Today's outfit inspiration: Try a [midi wrap dress] in a vibrant print paired with [ankle boots] for a feminine yet modern look. Add a [leather jacket] for edge or a [trench coat] for sophistication. Carry a [structured crossbody bag] to keep essentials handy. This outfit works for office settings (with the jacket), lunch dates, or evening events. The wrap style flatters most body types and the print adds personality. Need variations based on your wardrobe contents or climate?",
+        "Based on current trends and versatility, I recommend: [High-waisted wide-leg jeans] with a [fitted turtleneck] (perfect for transitional weather). Layer with an [oversized blazer] and [chunky loafers] for a chic urban look. Accessorize with [hoop earrings] and a [belt bag]. This outfit balances comfort and style, working for casual Fridays, weekend outings, or dinner dates. The proportions create an elongated silhouette while the textures add visual interest. Would you like me to suggest alternative pieces based on what's in your closet?"
+      ]
+    },
+    {
+      "tag": "trending_now",
+      "patterns": [
+        "What's trending right now?",
+        "Current fashion trends",
+        "What's in fashion now?",
+        "Latest trends",
+        "Show me trending styles",
+        "What's hot in fashion?",
+        "Popular outfits now",
+        "Trending looks this season"
+      ],
+      "responses": [
+        "The fashion landscape this season is delightfully diverse! Runways are showcasing: 1) 'Quiet luxury' with minimalist silhouettes in cashmere and silk 2) Maxi everything - from coats to denim 3) Vibrant reds making bold statements 4) Leather reimagined in skirts, pants and even blouses 5) Victorian influences through puff sleeves and high necklines 6) Unexpected sheer layering with slip dresses over tees 7) Platform shoes in both casual and dressy styles. The key is choosing trends that align with your personal aesthetic. Would you like styling tips for any of these?",
+        "Current must-know trends include: 1) The return of Y2K fashion with low-rise jeans and velour 2) Balletcore's soft pink hues and delicate details 3) Coastal grandmother's relaxed linen aesthetic 4) Goth glam's dark romance 5) Eclectic professor's tweed and elbow patches 6) Dopamine dressing's bright colors 7) Office siren's powerful suiting. The wonderful thing about today's fashion is there's space for all aesthetics to coexist. I can help you interpret these trends in ways that feel authentic to you - any catch your eye?",
+        "This season's trends offer something for everyone: For the minimalist, there's elevated basics in luxurious fabrics. The romantic can embrace puff sleeves and floral prints. Edgy dressers will love leather and metal details. Practical fashionistas can adopt the sleek utility trend. Color lovers have vibrant oranges and greens to play with. The key is selecting trends that resonate with your lifestyle and existing wardrobe. Would you like me to suggest how to tastefully incorporate any of these movements into your personal style?"
+      ]
+    },
+    {
+      "tag": "style_quiz",
+      "patterns": [
+        "Help me find my style",
+        "What's my fashion style?",
+        "Style quiz",
+        "Determine my style",
+        "What style suits me?",
+        "Find my personal style",
+        "Style recommendations",
+        "What's my aesthetic?"
+      ],
+      "responses": [
+        "Let's discover your style identity through a series of questions: 1) When you feel most confident, what are you wearing? 2) Which celebrity's style do you admire? 3) Pick three words to describe your ideal aesthetic 4) How do you want people to feel when they see your outfits? 5) What percentage of your wardrobe should be trendy vs timeless? 6) What's your go-to outfit formula? 7) Any colors or patterns you avoid? Based on your answers, I can identify your style archetype and suggest wardrobe upgrades!",
+        "Your personal style fingerprint is unique! Let's explore it through these prompts: Imagine your ideal wardrobe - what textures dominate? Which fashion era speaks to you most? Do you prefer statement pieces or quiet luxury? Are you drawn to bold colors or neutrals? How important is comfort vs style? What item do you own that always gets compliments? By analyzing these preferences, I can help crystallize your signature look and suggest pieces to enhance it. Ready to begin?",
+        "Discovering your style essence involves introspection: What clothing makes you feel most like yourself? Which outfits get you the most compliments? When do you feel you're trying too hard? What items do you repeatedly buy but never wear? Which stores consistently work for you? What's your most-worn color? By examining these clues, we can define your authentic style and create a shopping strategy that aligns with it. Would you like to go through this discovery process together?"
+      ]
+    },
+    {
+      "tag": "occasion_outfit",
+      "patterns": [
+        "Outfit for a date",
+        "What to wear to a party",
+        "Wedding guest outfit",
+        "Office appropriate outfit",
+        "Job interview clothes",
+        "Dinner date outfit",
+        "Brunch outfit ideas",
+        "Vacation outfits"
+      ],
+      "responses": [
+        "For special occasions like dates or weddings, the perfect outfit balances appropriateness with personality. A dinner date calls for something subtly sexy - perhaps a wrap dress with delicate jewelry. Wedding guest attire depends on formality - cocktail dresses for semi-formal, long gowns for black tie. Job interviews demand polished professionalism - think tailored separates in neutral colors. Brunch outfits can be playful yet put-together - maybe a midi skirt with a tucked-in sweater. Tell me more about the specific event and I'll refine these suggestions!",
+        "Occasion dressing requires considering: time of day (lighter colors/fabrics for daytime), venue (church vs beach), your role (guest vs participant), and comfort needs. A garden party suggests floral prints and wedge heels, while a gallery opening might call for minimalist chic. Vacation outfits should mix style with practicality - wrinkle-resistant fabrics, versatile layers, and comfortable yet stylish shoes. Office wear needs to balance professionalism with personal expression through color and accessory choices. What specific event are you preparing for?",
+        "The key to perfect occasion dressing is understanding unspoken codes while injecting your personality. Wedding guests should avoid white but can play with color - rich jewel tones for evening, soft pastels for daytime. Job interviews favor conservative cuts in quality fabrics - a navy suit or sheath dress projects competence. First dates benefit from outfits that are flirtatious but not overly revealing - perhaps a silky blouse with tailored jeans. Weekend brunch allows for playful accessories and brighter colors. Share your event details for customized recommendations!"
+      ]
+    },
+    {
+      "tag": "weather_outfit",
+      "patterns": [
+        "What to wear in hot weather",
+        "Cold weather outfits",
+        "Rainy day outfit",
+        "Winter fashion ideas",
+        "Summer outfit suggestions",
+        "What to wear in this weather",
+        "Seasonal outfit ideas",
+        "Fall fashion tips"
+      ],
+      "responses": [
+        "Weather-appropriate dressing combines practicality and style. For scorching summers: opt for breathable linen or cotton in loose silhouettes, light colors that reflect heat, wide-brimmed hats for sun protection, and open-toe shoes. Freezing winters demand layering: start with thermal base layers, add insulating mid-layers like cashmere, top with a weatherproof outer shell. Rainy days require waterproof trench coats, rubber-bottom boots, and quick-dry fabrics. Transitional seasons are perfect for lightweight jackets, scarves, and versatile layers. What specific weather challenge are you facing?",
+        "Seasonal dressing wisdom: Summer calls for moisture-wicking fabrics, UV-protective clothing, and ventilation (eyelet details, cut-outs). Winter prioritizes warmth retention - down insulation, wool blends, and windproof materials. Spring/fall are all about layering - think cardigans over sleeveless dresses, or light jackets with scarves. Rain demands water-repellent finishes (not just water-resistant), sealed seams, and quick-drying synthetics. Extreme cold requires attention to extremities - insulated gloves, thermal socks, and face protection. I can provide detailed packing lists or outfit formulas for any weather scenario you're preparing for!",
+        "Dressing for the elements stylishly involves: understanding fabric properties (merino wool regulates temperature, silk is warm yet breathable), mastering layering techniques (base-mid-outer), and choosing weather-appropriate accessories (waterproof boots, thermal tights). Hot climates benefit from loose weaves, light colors, and sun-protective designs. Cold weather demands windproof outer layers and insulation without bulk. Rainy days need quick-dry fabrics and waterproof footwear. The key is balancing function with aesthetics - there are stylish options for every forecast. Would you like specific brand recommendations for technical yet fashionable weatherwear?"
+      ]
+    },
+    {
+      "tag": "bodytype_advice",
+      "patterns": [
+        "What suits my body type?",
+        "Dresses for pear shape",
+        "Outfits for athletic build",
+        "Clothes for petite frame",
+        "Style for tall people",
+        "Fashion for curvy figures",
+        "What flatters my shape?",
+        "Best outfits for my body"
+      ],
+      "responses": [
+        "Dressing for your body type involves highlighting your favorite features while creating balanced proportions. Pear shapes (wider hips than shoulders) look great in A-line skirts and dresses that skim the hips, with detailing on top to balance. Apple shapes (wider midsection) benefit from V-necks and empire waists that elongate the torso. Hourglass figures can emphasize their waist with belts and fitted styles. Petite frames should opt for vertical lines and monochromatic looks to create length. Tall individuals can carry bold prints and maxi lengths beautifully. Share your shape and I'll provide customized recommendations!",
+        "Flattering your unique figure starts with understanding proportions. For athletic builds with less waist definition, create curves with peplum tops, ruffles, and belted styles. Plus-size figures shine in well-tailored pieces with strategic draping - avoid shapeless sacks. Petite women should look for cropped lengths and small-scale prints. Tall frames can experiment with bold patterns and oversized silhouettes. The key is focusing on fit rather than size numbers - quality tailoring makes all the difference. Would you like me to suggest specific brands known for flattering your particular body type?",
+        "Body-positive styling means dressing the body you have today with love. General guidelines: highlight your favorite feature (if you love your legs, show them off), create waist definition even if it's not naturally pronounced, balance proportions (if you're top-heavy, wear darker colors up top), and always prioritize comfort. Certain universal rules apply: properly fitted undergarments create smooth lines, vertical details elongate, and monochromatic looks are slimming. But remember - confidence is your best accessory! I can provide personalized advice if you share more about your specific shape and style goals."
+      ]
+    },
+    {
+      "tag": "occasion_based",
+      "patterns": [
+        "Based on occasion",
+        "Suggest outfit for an event",
+        "What to wear for occasion",
+        "Occasion appropriate outfit",
+        "Event outfit help",
+        "Dress for an occasion",
+        "Outfit for special event",
+        "Help me dress for"
+      ],
+      "responses": [
+        "Occasion dressing is an art that balances appropriateness with personal expression. For weddings, consider the venue and time of day - garden ceremonies call for floral prints and wedge heels, while evening galas demand formal gowns. Job interviews require conservative professionalism - think tailored separates in neutral tones. Cocktail parties allow for playful elegance - perhaps a sequin top with wide-leg trousers. Casual gatherings can showcase your personal style through well-put-together separates. Tell me more about the specific event and I'll provide detailed outfit recommendations!",
+        "Selecting the perfect event outfit involves multiple considerations: the formality level (black tie, business casual), cultural expectations (some religious venues require covered shoulders), weather conditions (outdoor vs indoor), your role (guest of honor should stand out appropriately), and comfort needs (you'll enjoy yourself more if not constantly adjusting your outfit). A general rule: when unsure, err slightly more formal rather than too casual. Accessories and shoes can often make or break an outfit's appropriateness. What specific occasion are you preparing for?",
+        "Special event outfits should make you feel confident while respecting the occasion's tone. Wedding guests should avoid white but can play with color - rich jewel tones for winter weddings, soft pastels for spring. Corporate events call for polished professionalism with personality shown through accessories. Birthday parties allow for more playful trends and bold choices. The key is understanding the dress code while staying true to your personal style. Would you like me to create a customized outfit concept based on your upcoming event's details?"
+      ]
+    },
+    {
+      "tag": "outfit_picker",
+      "patterns": [
+        "Help me pick an outfit",
+        "Choose an outfit for me",
+        "I need outfit help",
+        "Decide my outfit",
+        "What should I put on",
+        "Outfit selection help",
+        "Pick clothes for me",
+        "Style me today"
+      ],
+      "responses": [
+        "Let me help you create the perfect outfit! First, tell me about your day - what activities do you have planned? Next, consider the weather and any dress codes you need to follow. Then think about how you want to feel - powerful, comfortable, creative? Based on these factors, I'll suggest combinations from your existing wardrobe. For example: for a busy workday with evening plans, try tailored trousers with a silk blouse (add a blazer for meetings, switch to statement earrings for dinner). Need more personalized suggestions?",
+        "Outfit selection starts with understanding your needs. For a professional setting: a sheath dress with a cardigan and loafers projects polish. Weekend errands: high-waisted jeans with a tucked-in tee and sneakers keeps it casual yet put-together. Dinner date: a wrap dress with heeled sandals and delicate jewelry strikes the right note. The key is balancing appropriateness with personal style. Tell me more about your plans and preferences, and I'll provide several outfit options for you to consider!",
+        "Creating your perfect outfit involves: 1) Choosing a focal point (statement piece) 2) Building around it with complementary items 3) Considering color harmony 4) Balancing proportions (fitted with loose) 5) Selecting appropriate footwear 6) Adding thoughtful accessories 7) Ensuring comfort for the activities planned. For example, if you choose a patterned skirt as your focal point, pair it with a solid top in one of the skirt's colors, add neutral shoes, and minimal jewelry. Would you like me to generate specific outfit formulas based on your wardrobe contents?"
+      ]
+    },
+    {
+      "tag": "daily_outfit",
+      "patterns": [
+        "What should I wear today",
+        "Today's outfit",
+        "Daily wear ideas",
+        "Outfit for today",
+        "Clothes for today",
+        "Today's fashion choice",
+        "Recommend today's look",
+        "Wear today"
+      ],
+      "responses": [
+        "For a stylish yet practical today's outfit, consider these elements based on current trends: Start with [high-waisted wide-leg trousers] in a neutral tone, pair with a [fitted turtleneck] for cooler weather or [silk tank] for warmth. Layer with an [oversized blazer] or [chunky cardigan] depending on formality needs. Footwear could range from [loafers] to [ankle boots]. Accessorize with [minimalist gold jewelry] and a [structured tote]. This look transitions beautifully from work to evening by swapping the top layer and adding bold lip color. Need adjustments for your specific plans?",
+        "Today's outfit inspiration combines comfort and style: Try a [midi wrap dress] in a solid color with [ankle boots] and a [leather jacket] for transitional weather. Add [opaque tights] if chilly. Carry a [crossbody bag] for hands-free convenience. This look works for office settings (add blazer), lunch dates, or errands. The wrap silhouette flatters most figures while allowing movement. For cooler evenings, layer with a [cashmere wrap]. Would you like variations based on your wardrobe contents or specific activities planned?",
+        "Based on seasonal appropriateness, I recommend: [Dark wash skinny jeans] paired with a [chunky knit sweater] in an autumnal hue. Layer with a [trench coat] and [riding boots] for classic fall style. Accessorize with a [blanket scarf] and [hoop earrings]. This outfit balances warmth and style, perfect for crisp days. The proportions create a streamlined silhouette while the textures add visual interest. For evening, swap the sweater for a [silky blouse] and add heeled booties. Would you like me to suggest alternative pieces based on what you own?"
+      ]
+    },
+    {
+      "tag": "current_trends",
+      "patterns": [
+        "What's trending right now",
+        "Current fashion trends",
+        "Latest styles",
+        "What's in this season",
+        "Trending outfits",
+        "Hot right now",
+        "Popular fashion now",
+        "Seasonal trends"
+      ],
+      "responses": [
+        "The current fashion moment celebrates individuality with these key trends: 1) 'Quiet luxury' featuring minimalist silhouettes in cashmere and silk 2) Maxi lengths dominating both dresses and coats 3) Vibrant red making a bold color statement 4) Leather reimagined beyond jackets - think pants, skirts and even blouses 5) Victorian influences through high necklines and puff sleeves 6) Sheer layering with slip dresses over tees 7) Platform shoes in both casual and dressy iterations. The beauty is choosing what resonates with your personal aesthetic. Would you like styling tips for any of these?",
+        "This season's runway highlights include: 1) Y2K nostalgia with low-rise jeans and velour 2) Balletcore's soft pink hues and delicate details 3) Coastal grandmother's relaxed linen aesthetic 4) Goth glam's dark romanticism 5) Eclectic professor's tweed and elbow patches 6) Dopamine dressing's joyful brights 7) Office siren's powerful suiting. The wonderful diversity means there's something for every style personality. I can help you interpret these trends in ways that feel authentic - any particularly speak to you?",
+        "Fashion's current directions offer rich variety: Minimalists will love elevated basics in luxurious fabrics. Romantics can embrace puff sleeves and floral prints. Edgy dressers have leather and metal details to play with. Practical fashionistas can adopt sleek utility elements. Color enthusiasts will delight in vibrant oranges and greens. The key is selecting trends that harmonize with your lifestyle and existing wardrobe. Would you like me to suggest how to tastefully incorporate specific trends into your personal style?"
+      ]
+    },
+    {
+      "tag": "wardrobe_integration",
+      "patterns": [
+        "Incorporate trends into my wardrobe",
+        "Add trends to my closet",
+        "Update my style",
+        "Modernize my looks",
+        "Refresh my wardrobe",
+        "Trendy but classic",
+        "Mix trends with basics",
+        "Update my fashion"
+      ],
+      "responses": [
+        "Refreshing your wardrobe with trends while maintaining timeless appeal involves: 1) Selecting 2-3 current trends that genuinely suit your lifestyle 2) Incorporating them through accessories first (a trending bag vs entire outfit) 3) Pairing trendy pieces with classic staples (leather pants with white button-down) 4) Choosing quality over quantity for trend items 5) Considering how trends can be styled multiple ways 6) Being ruthless about discarding trends that don't work for you 7) Documenting outfit formulas that successfully mix old and new. Would you like help identifying which current trends would integrate well with your existing closet?",
+        "Modernizing your look without overhauling your wardrobe: Start by auditing what you own - which classic pieces form your foundation? Then identify small updates - maybe swapping some jewelry, adding a contemporary jacket, or trying new shoe silhouettes. The 70/30 rule works well - 70% timeless pieces, 30% trend items. For example, pair your classic blazer with a trending graphic tee and modern loafers. I can provide personalized suggestions if you share some of your wardrobe staples!",
+        "Strategically updating your style involves: 1) Identifying gaps where trends could add freshness 2) Selecting trend pieces in versatile colors 3) Choosing trends that align with your lifestyle 4) Balancing trendy tops with classic bottoms (or vice versa) 5) Using accessories to experiment affordably 6) Learning new styling techniques for old favorites 7) Creating outfit formulas that mix eras seamlessly. For instance, try tucking a trending corset top into your existing high-waisted jeans. Would you like me to analyze your current wardrobe and suggest specific update opportunities?"
+      ]
+    },
+    
+        {
+          "tag": "workwear_essentials",
+          "patterns": [
+            "What are essential workwear pieces?",
+            "Must-have office clothes",
+            "Building a professional wardrobe",
+            "Capsule wardrobe for work",
+            "Professional outfit basics",
+            "What should every working woman own?",
+            "Office wardrobe staples"
+          ],
+          "responses": [
+            "Every professional wardrobe needs these 5 key pieces: 1) A well-tailored blazer in navy or black that can dress up any outfit. 2) At least two pairs of quality trousers - one in a neutral color and one in a seasonal shade. 3) A versatile sheath dress that can transition from day to night. 4) Several blouses in different styles (silk, button-down, wrap). 5) Comfortable yet polished shoes like loafers or block heels. Would you like me to suggest specific brands or styling tips for these pieces?",
+            "For a complete work wardrobe, focus on mix-and-match basics: Start with 3 blazers (black, navy, and a seasonal color), 5 tops (including at least one white button-down), 2 pairs of dress pants, a pencil skirt, and 2-3 dresses. Add 2 pairs of comfortable heels and flats. Remember, accessories like a quality watch and structured bag elevate every look. Need help selecting pieces for your specific industry?"
+          ]
+        },
+        {
+          "tag": "seasonal_transition",
+          "patterns": [
+            "How to transition wardrobe between seasons?",
+            "Switching from summer to fall fashion",
+            "Winter to spring outfit transition",
+            "Seasonal wardrobe change tips",
+            "Updating closet for new season",
+            "Best transitional pieces",
+            "Clothes that work year-round"
+          ],
+          "responses": [
+            "Transitioning your wardrobe smoothly requires key layering pieces: Lightweight sweaters over summer dresses, trench coats that work in spring and fall, ankle boots that pair with both tights and bare legs. For summer to fall, try layering your sundresses with denim jackets and swapping sandals for booties. From winter to spring, replace heavy knits with lighter cardigans and trade snow boots for stylish rain shoes. Would you like a complete seasonal transition checklist?",
+            "The smartest way to transition is with these 7 pieces: 1) A neutral trench coat 2) Lightweight turtlenecks 3) Midi skirts that work with tights or bare legs 4) Denim jackets 5) Ankle boots 6) Transitional dresses (sleeveless styles you can layer) 7) Versatile scarves. These items can be mixed to create 20+ outfits across seasons. Want me to suggest specific outfit combinations?"
+          ]
+        },
+        {
+          "tag": "sustainable_fashion",
+          "patterns": [
+            "How to build a sustainable wardrobe?",
+            "Ethical fashion tips",
+            "Eco-friendly clothing brands",
+            "Slow fashion movement",
+            "Reducing fashion waste",
+            "Sustainable style choices",
+            "Environmentally friendly shopping"
+          ],
+          "responses": [
+            "Building a sustainable wardrobe starts with these principles: 1) Buy less but better quality pieces that last years. 2) Choose natural fibers like organic cotton, linen, and Tencel. 3) Support brands with transparent supply chains. 4) Learn basic mending skills to extend garment life. 5) Shop secondhand through thrift stores or apps. 6) Organize clothing swaps with friends. 7) When buying new, look for certifications like GOTS or B Corp. Would you like recommendations for sustainable brands in your price range?",
+            "Sustainable fashion isn't just about what you buy - it's how you care for clothes: Wash less frequently in cold water, air dry when possible, use eco-friendly detergents. Build a capsule wardrobe of 30-40 versatile pieces that all mix and match. Invest in timeless styles rather than trends. For special occasions, consider renting instead of buying. I can provide a complete guide to evaluating a brand's sustainability claims if you're interested."
+          ]
+        },
+        {
+          "tag": "budget_shopping",
+          "patterns": [
+            "How to look expensive on a budget?",
+            "Affordable fashion tips",
+            "Looking stylish without spending much",
+            "Best places to shop cheap",
+            "Frugal fashion advice",
+            "Saving money on clothes",
+            "Budget-friendly wardrobe"
+          ],
+          "responses": [
+            "Looking expensive on a budget is all about strategy: 1) Focus on fit - even inexpensive clothes look premium when tailored. 2) Stick to solid colors and minimal patterns. 3) Invest in quality-looking accessories (a structured bag, simple jewelry). 4) Shop end-of-season sales for high-end brands. 5) Learn to spot quality fabrics (thick cotton, real wool). 6) Focus your spending on pieces people notice most - coats, shoes, and bags. 7) Try outlet stores or consignment shops for designer deals. Want me to suggest specific affordable brands that look luxurious?",
+            "Build a stylish budget wardrobe with these smart approaches: Start with thrift stores in wealthy neighborhoods for hidden gems. Follow the 70/30 rule - spend 70% on basics and 30% on trends. Shop online outlets like The Outnet or Nordstrom Rack. Wait for seasonal sales (best times are January and July). Learn to spot quality stitching and fabric content labels. Remember, simple outfits in neutral colors with one statement piece always look polished. I can provide a complete budget shopping calendar if you'd like."
+          ]
+        },
+        {
+          "tag": "travel_packing",
+          "patterns": [
+            "How to pack light but stylish?",
+            "Capsule wardrobe for travel",
+            "What to pack for vacation",
+            "Travel fashion tips",
+            "Packing efficiently for trips",
+            "Versatile travel outfits",
+            "Minimalist packing list"
+          ],
+          "responses": [
+            "Packing light while staying stylish requires strategic planning: Choose a color scheme (neutrals + 1 accent color). Pack 3 tops that all match 2 bottoms. Include one dress that can be dressed up or down. Bring layers like a lightweight cardigan or denim jacket. Select shoes that work with multiple outfits (neutral sneakers, versatile sandals). Use packing cubes to organize. Roll clothes to save space. Remember accessories (2 scarves, simple jewelry) to change up looks. Would you like a complete packing list for your specific destination and trip length?",
+            "The perfect travel capsule includes: 1) A neutral blazer that works over dresses and with jeans 2) 2 pairs of pants (one jeans, one other) 3) 3 tops that all mix and match 4) One dress 5) Comfortable walking shoes and one dressier pair 6) A crossbody bag and a foldable tote 7) Minimal jewelry that goes with everything. Stick to wrinkle-resistant fabrics like knits and technical blends. I can suggest specific outfits combinations that give you 10+ looks from just 7 pieces if you're interested."
+          ]
+        },
+        {
+          "tag": "formal_wear",
+          "patterns": [
+            "What to wear to a black tie event?",
+            "Formal gown advice",
+            "Evening wear suggestions",
+            "Cocktail attire guidelines",
+            "Black tie optional outfits",
+            "Gala dress code help",
+            "Sophisticated evening looks"
+          ],
+          "responses": [
+            "For black tie events, women have several elegant options: A full-length formal gown is most traditional. Alternatively, a sophisticated cocktail dress (knee-length or longer) in luxe fabrics like silk or velvet works for many events. Consider the venue - opera houses call for more conservative styles than modern galleries. Jewel tones and metallics are always appropriate. Bring a elegant wrap or jacket for cooler venues. Shoes should be dressy but comfortable enough to stand in for hours. Would you like suggestions for specific dress styles based on your body type?",
+            "Navigating formal dress codes: 'Black tie' means floor-length gowns or very dressy cocktail dresses. 'Black tie optional' allows for dressy separates like a sequin top with palazzo pants. 'Cocktail attire' typically means knee-length or midi dresses in luxe fabrics. For white tie (the most formal), only full-length gowns with gloves are appropriate. Remember that accessories make the look - a statement clutch, elegant jewelry, and styled hair complete the ensemble. I can provide a complete formal wear guide with shopping recommendations if you'd like."
+          ]
+        },
+        {
+          "tag": "denim_guide",
+          "patterns": [
+            "How to choose the right jeans?",
+            "Denim styles for my body type",
+            "Best jeans for petite figures",
+            "Finding perfect fitting jeans",
+            "Denim trends this year",
+            "Jeans shopping guide",
+            "Different types of denim"
+          ],
+          "responses": [
+            "Finding perfect jeans involves considering: 1) Rise - high-rise elongates legs, mid-rise is most versatile. 2) Fit - skinny works for most, straight-leg is trending, wide-leg balances proportions. 3) Wash - dark for dressy, medium for casual, light for summer. 4) Stretch - 2% elastane gives comfort without sagging. For petites, look for ankle-length styles. Curvy figures benefit from jeans with higher back rises. Tall frames can carry wide-leg styles beautifully. Would you like specific brand recommendations for your body type?",
+            "This year's denim trends include: 1) Relaxed straight-leg jeans (the new classic) 2) Wide-leg jeans in lightweight denim 3) Patchwork and upcycled styles 4) Dark rinse for evening looks 5) Cropped flares for retro vibes. When shopping, check that jeans fit snugly at the waist (they'll stretch), have enough thigh room, and the hem hits at the right spot. Bring shoes you'll wear with them to test length. I can create a personalized denim shopping list based on your preferences and measurements if you'd like."
+          ]
+        },
+        {
+          "tag": "shoe_selection",
+          "patterns": [
+            "How to choose comfortable stylish shoes?",
+            "Best shoes for all-day wear",
+            "Comfortable yet fashionable footwear",
+            "Shoes that don't hurt",
+            "Podiatrist-approved stylish shoes",
+            "Walking all day shoe advice",
+            "Work appropriate comfortable shoes"
+          ],
+          "responses": [
+            "For shoes that are both stylish and comfortable, look for: 1) Cushioned insoles with arch support 2) Wide enough toe boxes 3) Heels no higher than 2 inches for daily wear 4) Quality leather that molds to your feet 5) Rubber soles for shock absorption. Brands like Cole Haan, Ecco, and Naturalizer combine fashion with function. For work, try block heels or loafers. For walking, supportive sneakers with orthotic inserts. Would you like recommendations for specific foot issues like bunions or plantar fasciitis?",
+            "Building a comfortable shoe wardrobe requires: 1) A neutral pump with a thick heel (1.5-2 inches max) 2) Supportive flats with arch support 3) Dressy sneakers for casual days 4) Ankle boots with cushioned footbeds 5) Strappy sandals with wide, adjustable bands. Rotate shoes daily to prevent repetitive stress. Use protective sprays to extend their life. Consider getting custom orthotics for your most-worn pairs. I can provide a complete guide to breaking in new shoes comfortably if you're interested."
+          ]
+        },
+        {
+          "tag": "accessory_guide",
+          "patterns": [
+            "How to choose the right accessories?",
+            "Accessorizing outfits properly",
+            "Statement jewelry tips",
+            "Choosing handbags for outfits",
+            "Scarf styling guide",
+            "Belts that flatter",
+            "Finishing touches for outfits"
+          ],
+          "responses": [
+            "Mastering accessories involves: 1) Proportion - delicate jewelry with petite frames, bolder pieces for taller figures. 2) Balance - if wearing statement earrings, go light on necklaces. 3) Color coordination - match metals to other hardware (bag clasps, belt buckles). 4) Seasonal appropriateness - straw bags in summer, velvet in winter. 5) Practicality - choose bag size based on daily essentials. A good rule: put on all accessories, then remove one piece before leaving. Would you like specific accessory recommendations to complement your existing wardrobe?",
+            "Every woman needs these 7 essential accessories: 1) A medium-sized neutral handbag 2) A statement bag for special occasions 3) Simple hoop earrings and studs 4) A delicate necklace and one bold piece 5) A quality leather belt 6) A silk scarf 7) A classic watch. When accessorizing, consider the neckline of your top - crew necks work with pendants, v-necks with delicate chains. Belts should hit at the smallest part of your waist. I can create a personalized accessory capsule based on your style preferences if you'd like."
+          ]
+        },
+        {
+          "tag": "lingerie_guide",
+          "patterns": [
+            "How to choose proper undergarments?",
+            "Bras that don't show lines",
+            "Shapewear recommendations",
+            "Seamless underwear options",
+            "Lingerie for specific outfits",
+            "Foundation garments guide",
+            "Invisible under clothing"
+          ],
+          "responses": [
+            "The right undergarments make all outfits look better: For smooth lines, choose seamless microfiber bras and panties in nude tones closest to your skin. T-shirt bras work under fitted tops. Strapless bras should have silicone grips. Shapewear comes in various levels of control - start with light control if new to it. For white clothing, opt for nude (not white) undergarments. Always try shapewear with the outfit you'll wear it with. Would you like brand recommendations for specific needs like large bust support or post-surgical garments?",
+            "Building a proper lingerie wardrobe includes: 1) A nude and black t-shirt bra 2) A strapless convertible bra 3) Seamless panties in multiple neutral shades 4) A slip for sheer dresses 5) Light-to-medium control shapewear shorts 6) A comfortable bralette for casual days 7) Special occasion pieces. Remember to get professionally fitted annually as sizes change. Quality undergarments last longer and provide better support. I can provide a complete guide to proper bra fitting techniques if you're interested."
+          ]
+        },
+        {
+          "tag": "petite_fashion",
+          "patterns": [
+            "Fashion tips for petite women",
+            "How to look taller with clothes",
+            "Best styles for short frames",
+            "Petite outfit ideas",
+            "Clothes for 5'4\" and under",
+            "Lengthening outfit tricks",
+            "Petite body styling"
+          ],
+          "responses": [
+            "Petite styling secrets: 1) Monochromatic outfits create length 2) High-waisted bottoms elongate legs 3) Vertical stripes and seams are flattering 4) Proper hem lengths are crucial (ankle pants should hit right above the shoe) 5) Pointed-toe shoes add inches 6) Tailored fits work better than oversized 7) Belts should be narrow and positioned at the smallest part of the waist. Look for petite-specific lines at retailers as they scale patterns appropriately. Would you like specific brand recommendations that cater well to petite sizing?",
+            "For petites, these styles work best: 1) V-neck tops elongate the torso 2) Fitted blazers with shortened sleeves 3) A-line mini or midi skirts (avoid maxi) 4) Cropped pants that hit at the ankle 5) Wrap dresses that define the waist 6) Nude shoes that match your skin tone 7) Small to medium-sized handbags that don't overwhelm. Avoid large prints, wide belts, and overwhelming ruffles. Getting clothes tailored is worth the investment - even just hemming pants makes a huge difference. I can provide a petite-specific shopping guide if you'd like."
+          ]
+        },
+        {
+          "tag": "plus_size_fashion",
+          "patterns": [
+            "Styling tips for plus size",
+            "Flattering outfits for curvy figures",
+            "Best clothes for size 14+",
+            "Plus size fashion advice",
+            "Dressing a fuller bust",
+            "Curvy girl style guide",
+            "Fashion for larger bodies"
+          ],
+          "responses": [
+            "Plus size styling fundamentals: 1) Proper fit is crucial - neither too tight nor too loose 2) Structured fabrics create flattering silhouettes 3) Define your waist with belts or tailoring 4) V-necks elongate the torso 5) Darker colors are slimming but don't shy from bold prints 6) Vertical seams and details create length 7) Invest in quality shapewear for special occasions. Look for brands that design specifically for curves, not just sized-up straight sizes. Would you like recommendations for plus-size friendly brands with stylish options?",
+            "Flattering plus-size outfits include: 1) Wrap dresses that accentuate curves 2) High-waisted pants with a tucked-in blouse 3) Fit-and-flare dresses that skim the body 4) Structured blazers that create definition 5) A-line skirts that balance proportions 6) Tops with strategic ruching or draping 7) Jackets that hit at the waist. Avoid shapeless sacks, tiny prints, and stiff fabrics that don't drape well. Remember confidence is your best accessory - wear what makes you feel amazing. I can provide a complete plus-size styling guide with shopping links if you'd like."
+          ]
+        },
+        {
+          "tag": "maternity_style",
+          "patterns": [
+            "Fashion tips for pregnancy",
+            "Maternity clothes that don't look frumpy",
+            "Dressing a baby bump stylishly",
+            "What to wear while pregnant",
+            "Maternity workwear ideas",
+            "Pregnancy fashion guide",
+            "Clothes for expecting mothers"
+          ],
+          "responses": [
+            "Stylish maternity dressing focuses on: 1) Stretchy fabrics that grow with you 2) Empire waists that highlight the smallest part under your bust 3) Layering pieces like open cardigans 4) Wrap styles that adjust as you grow 5) Supportive undergarments (maternity bras are essential) 6) Comfortable shoes as your feet may swell 7) Belly bands to extend regular pants. Look for maternity-specific brands that design for real pregnant bodies, not just oversized regular clothes. Would you like recommendations for maternity brands that offer stylish workwear options?",
+            "Building a maternity capsule wardrobe: Start with 2 pairs of quality maternity jeans (one black, one denim), 3 stretchy knit dresses, 5 tops with side ruching, a blazer with stretch panels, and comfortable flats. For work, look for professional pieces with hidden stretch panels. Remember your bust size will change, so wait to buy nursing bras until late pregnancy. Accessories like statement necklaces draw attention upward. I can provide a trimester-by-trimester shopping guide if you're interested."
+          ]
+        },
+        {
+          "tag": "menopause_fashion",
+          "patterns": [
+            "Dressing during menopause",
+            "Clothes for hot flashes",
+            "Fashion for women over 50",
+            "Style tips for changing bodies",
+            "Menopausal wardrobe solutions",
+            "Cooling clothing options",
+            "Dressing comfortably after 50"
+          ],
+          "responses": [
+            "Menopause-friendly fashion focuses on: 1) Breathable natural fabrics like cotton and linen 2) Layering pieces for temperature fluctuations 3) Moisture-wicking undergarments 4) Easy-care, wrinkle-resistant fabrics 5) Comfortable shoes as feet may spread 6) Styles that accommodate weight fluctuations 7) Confidence-boosting colors near your face. Look for brands specializing in cooling technology fabrics. Avoid synthetic materials that trap heat. Would you like recommendations for specific cooling undergarments and clothing lines?",
+            "Building a menopause-ready wardrobe: 1) Invest in quality basics with stretch 2) Choose open necklines for ventilation 3) Have multiple light layers available 4) Select shoes with good arch support 5) Try bamboo or Tencel fabrics that regulate temperature 6) Keep a stylish handheld fan in your bag 7) Focus on elegant, age-appropriate styles that make you feel confident. Remember this is a transition period - buy fewer but better pieces that work with your changing needs. I can provide a complete guide to dressing for hot flashes and night sweats if you'd like."
+          ]
+        },
+        {
+          "tag": "gender_neutral",
+          "patterns": [
+            "Androgynous fashion tips",
+            "Gender neutral clothing guide",
+            "Unisex style ideas",
+            "Non-binary fashion advice",
+            "Masculine-feminine balance in outfits",
+            "Genderless dressing",
+            "Breaking gender fashion norms"
+          ],
+          "responses": [
+            "Gender-neutral styling combines: 1) Structured silhouettes like blazers with fluid elements 2) Neutral color palettes with pops of personality 3) Mix of traditionally masculine and feminine pieces 4) Focus on fit rather than gendered sizing 5) Minimalist accessories 6) Quality fabrics that drape well 7) Footwear that bridges styles (chelsea boots, loafers). Look for brands specifically designing unisex collections. Would you like recommendations for gender-neutral brands or styling your existing wardrobe this way?",
+            "Creating a gender-fluid wardrobe: Start with basics like straight-leg trousers, button-downs, and simple tears. Add layers like overshirts and chore jackets. Choose footwear that works across contexts (white sneakers, ankle boots). Accessorize with unisex watches and minimal jewelry. Tailoring is key - clothes should fit your body, not gender expectations. Remember personal style transcends labels - wear what makes you feel authentic. I can provide a complete guide to building a versatile, gender-neutral capsule wardrobe if you're interested."
+          ]
+        },
+        {
+          "tag": "modest_fashion",
+          "patterns": [
+            "Stylish modest clothing ideas",
+            "Fashion with coverage",
+            "Conservative outfit options",
+            "Dressing modestly but fashionably",
+            "Covering up stylishly",
+            "Religious appropriate fashion",
+            "Long sleeve dress ideas"
+          ],
+          "responses": [
+            "Modest fashion can be stylish with: 1) Luxe fabrics that add sophistication 2) Interesting sleeve details (bell, bishop, or puff) 3) Layering pieces like lightweight turtlenecks under dresses 4) Maxi skirts and dresses with movement 5) High necklines balanced with open backs or side cutouts 6) Tailored pieces that flatter without being tight 7) Elegant accessories that draw attention. Look for brands specializing in modest wear or learn to layer regular pieces creatively. Would you like recommendations for modest fashion brands or styling tricks?",
+            "Building a modest wardrobe: Invest in quality basics like a long-sleeve bodysuit for layering, flowing midi/maxi skirts, and tailored wide-leg pants. Look for dresses with interesting necklines (mock, portrait, or jewel) that provide coverage. Add lightweight cardigans and dusters for extra coverage when needed. Remember modesty is personal - define your own parameters for neckline, sleeve length, and hemline. I can provide a complete guide to stylish layering techniques for coverage if you'd like."
+          ]
+        },
+        {
+          "tag": "business_casual",
+          "patterns": [
+            "What is business casual?",
+            "Office appropriate outfits",
+            "Work clothes that aren't too formal",
+            "Business casual for women",
+            "Professional but not stuffy",
+            "Modern workwear ideas",
+            "Corporate casual dressing"
+          ],
+          "responses": [
+            "Modern business casual combines: 1) Tailored separates like blazers with jeans 2) Polished knitwear instead of stiff button-downs 3) Comfortable yet stylish footwear (loafers, block heels) 4) Midi or knee-length skirts with tights 5) Dark wash jeans without distressing for casual Fridays 6) Structured bags that look professional 7) Minimal jewelry that pulls looks together. The key is looking put-together while being comfortable enough for all-day wear. Would you like industry-specific business casual guidelines (tech vs. finance vs. creative fields)?",
+            "Business casual essentials include: 1) A well-fitting blazer in a neutral color 2) Several pairs of dress pants (try ponte or stretch wool) 3) Shell tops for layering 4) A few knit dresses that can be dressed up or down 5) Comfortable heels and flats 6) A quality leather tote 7) Simple jewelry that works with everything. Remember it's always better to be slightly overdressed than underdressed - you can remove a blazer or swap heels for flats if needed. I can provide a complete business casual capsule wardrobe with shopping links if you're interested."
+          ]
+        },
+        {
+          "tag": "interview_attire",
+          "patterns": [
+            "What to wear to a job interview",
+            "Interview outfit ideas",
+            "Professional interview clothes",
+            "Dressing for interview success",
+            "Best colors for interviews",
+            "Corporate interview attire",
+            "Making a good first impression"
+          ],
+          "responses": [
+            "Interview attire should be: 1) Industry-appropriate (more formal for finance, creative for design fields) 2) In conservative colors (navy, gray, black) 3) Perfectly fitted and pressed 4) Comfortable enough to focus on conversation 5) Finished with polished details (clean shoes, neat hair) 6) Free of distractions (avoid loud prints or jangly jewelry) 7) Completed with a professional bag/portfolio. For women, a suit (pants or skirt) or sheath dress with blazer is safest. Would you like field-specific interview outfit examples?",
+            "The perfect interview outfit includes: 1) A tailored blazer in a neutral color 2) Matching pants or knee-length skirt 3) A simple shell or button-down 4) Closed-toe pumps or loafers 5) Minimal jewelry (stud earrings, simple watch) 6) A structured bag or briefcase 7) Neat, professional hairstyle. Research the company culture first - creative fields allow more personality, while conservative industries expect traditional suiting. Remember confidence comes from knowing you look appropriate - when in doubt, err on the formal side. I can provide a complete interview preparation checklist if you'd like."
+          ]
+        },
+        {
+          "tag": "date_night",
+          "patterns": [
+            "What to wear on a date",
+            "First date outfit ideas",
+            "Romantic evening looks",
+            "Dressing for dinner date",
+            "Cute date outfits",
+            "Night out fashion",
+            "Dress to impress on date"
+          ],
+          "responses": [
+            "Date night outfits should: 1) Make you feel confident 2) Suit the venue (casual coffee vs. fancy dinner) 3) Include one standout piece (great jeans, a special top) 4) Have comfortable yet stylish shoes 5) Incorporate subtle sex appeal (show either legs, arms, or décolletage - not all at once) 6) Include a conversation-starting accessory 7) Be finished with a signature scent. For first dates, avoid brand new clothes you're not comfortable in. Would you like specific outfit suggestions based on date type (day vs. night, active vs. dinner)?",
+            "Perfect date outfits include: 1) A wrap dress with heeled ankle boots 2) Fitted jeans with a silky cami and blazer 3) A jumpsuit with statement earrings 4) A skirt with a tucked-in sweater and knee-high boots 5) Leather pants with a delicate blouse. Remember to consider practicality - can you sit/scoot/eat comfortably? Bring a jacket if walking between venues. Choose outfits that reflect your personality while making you feel your best. I can provide a complete date night style guide with shopping recommendations if you'd like."
+          ]
+        },
+        {
+          "tag": "wedding_guest",
+          "patterns": [
+            "What to wear as a wedding guest",
+            "Wedding appropriate outfits",
+            "Dressing for someone else's wedding",
+            "Wedding guest dress code",
+            "Wedding attire guidelines",
+            "What not to wear to weddings",
+            "Wedding season fashion"
+          ],
+          "responses": [
+            "Wedding guest attire depends on: 1) The time of day (lighter colors/fabrics for day) 2) Venue formality (church vs. beach) 3) Cultural/religious considerations 4) Dress code specifics if provided. General rules: Avoid white/ivory, don't outshine the couple, ensure comfortable shoes for dancing. For women, cocktail dresses or dressy separates work for most weddings. Would you like specific recommendations based on an upcoming wedding's details?",
+            "Navigating wedding guest attire: 'Black tie' means formal gowns. 'Cocktail' calls for knee-length or midi dresses. 'Beach formal' allows for flowy fabrics and wedges. 'Semiformal' is dressy but not as strict. Always check if the couple has color requests (some ask guests to avoid certain colors). Remember it's better to be slightly overdressed than underdressed. Bring a wrap or jacket for cooler venues. I can provide a complete wedding guest style guide with shopping links if you're planning for wedding season."
+          ]
+        },
+        {
+          "tag": "beach_vacation",
+          "patterns": [
+            "What to pack for beach vacation",
+            "Beach resort outfits",
+            "Tropical vacation fashion",
+            "Swimwear cover up ideas",
+            "Hot weather vacation clothes",
+            "Packing for Caribbean trip",
+            "Summer getaway wardrobe"
+          ],
+          "responses": [
+            "Beach vacation essentials include: 1) 2-3 swimsuits that dry quickly 2) Lightweight cover-ups that double as outfits 3) Breathable linen or cotton separates 4) A wide-brimmed hat and sunglasses 5) Comfortable sandals and water shoes 6) A crossbody bag for security 7) Quick-dry underwear. Choose fabrics that resist wrinkles and dry quickly. Pack versatile pieces that mix and match. Would you like a complete beach packing checklist with outfit combinations?",
+            "Stylish beach vacation packing: Start with a color scheme (navy/white, black/khaki, etc.). Include 2 swimsuits, 3 cover-ups that work as dresses, 2 pairs of shorts, 3 breezy tops, 1 dinner-appropriate outfit, 1 lightweight sweater for cool evenings, a sunhat, and 2 pairs of sandals (one dressy, one casual). Remember to pack reef-safe sunscreen and aloe vera gel. Roll clothes to save space and prevent wrinkles. I can provide specific outfit ideas for different beach activities (snorkeling, dinners, excursions) if you'd like."
+          ]
+        },
+        {
+          "tag": "winter_vacation",
+          "patterns": [
+            "What to pack for winter trip",
+            "Cold weather vacation outfits",
+            "Ski resort fashion",
+            "Stylish winter travel clothes",
+            "Packing for snow vacation",
+            "Winter city break wardrobe",
+            "Looking cute in cold weather"
+          ],
+          "responses": [
+            "Winter vacation packing requires: 1) A quality insulated coat 2) Layering pieces (thermal base layers, fleece mid-layers) 3) Waterproof boots with grip 4) Warm accessories (hat, gloves, scarf) 5) Sweaters that mix and match 6) Comfortable pants with stretch 7) Compact down pieces for extreme cold. Choose dark colors that hide dirt if traveling. Pack items that serve multiple purposes. Would you like destination-specific winter packing lists (city vs. ski resort)?",
+            "Stylish cold-weather travel: Start with a neutral coat that goes with everything. Pack 2-3 sweaters, thermal base layers, fleece-lined tights, insulated boots, and versatile pants (jeans, cords). Add accessories that add pops of color (scarves, gloves). For evenings, bring dressier layers like a cashmere sweater or velvet pants. Remember the 3-layer system: base (wicking), middle (insulating), outer (weatherproof). I can provide a complete winter travel capsule with outfit combinations if you're planning a trip."
+          ]
+        },
+        {
+          "tag": "capsule_wardrobe",
+          "patterns": [
+            "How to create a capsule wardrobe",
+            "Minimalist fashion approach",
+            "Building a versatile closet",
+            "Less clothes more outfits",
+            "Essential wardrobe pieces",
+            "Capsule wardrobe benefits",
+            "Simplifying my closet"
+          ],
+          "responses": [
+            "Creating a capsule wardrobe: 1) Choose a cohesive color palette (3 neutrals + 2 accents) 2) Select 30-40 high-quality pieces 3) Focus on versatility (everything should mix and match) 4) Include seasonal appropriate items 5) Store off-season clothes elsewhere 6) Edit ruthlessly - if you don't love it, remove it 7) Maintain with one-in-one-out rule. A basic capsule includes: 5 tops, 5 bottoms, 5 dresses, 3 jackets, 5 shoes, and accessories. Would you like a personalized capsule plan based on your lifestyle?",
+            "The benefits of a capsule wardrobe: Saves time (fewer decisions), money (buy less but better), and space (organized closet). Start by identifying your most-worn pieces and build around them. Include: Perfect jeans, white tee, blazer, little black dress, comfortable flats, statement necklace. Remember quality over quantity - each piece should fit perfectly and make you feel great. I can provide a complete capsule wardrobe builder worksheet if you're ready to simplify."
+          ]
+        },
+        {
+          "tag": "closet_organization",
+          "patterns": [
+            "How to organize my closet",
+            "Closet storage solutions",
+            "Organizing clothes effectively",
+            "Decluttering wardrobe tips",
+            "Closet makeover ideas",
+            "Best way to arrange clothes",
+            "Maximizing small closet space"
+          ],
+          "responses": [
+            "Closet organization system: 1) Sort by category (tops, bottoms, dresses) 2) Then by color within categories 3) Use matching hangers for uniformity 4) Store off-season clothes elsewhere 5) Implement the one in, one out rule 6) Use clear bins for small items 7) Add lighting to see everything clearly. For small spaces, try double-hanging rods or over-the-door organizers. Would you like product recommendations for closet organization systems?",
+            "Transform your closet with: 1) Velvet hangers that save space 2) Shelf dividers for folded items 3) Drawer organizers for small items 4) A valet rod for outfit planning 5) Shoe racks or clear boxes 6) Handbag organizers to maintain shape 7) Jewelry trays or hanging organizers. Start by completely emptying your closet, then only return items you love and wear. Donate or sell the rest. I can provide a complete closet edit checklist if you're ready to reorganize."
+          ]
+        },
+        {
+          "tag": "clothing_care",
+          "patterns": [
+            "How to make clothes last longer",
+            "Proper clothing care",
+            "Laundry tips to preserve clothes",
+            "Fabric care guide",
+            "Removing stains properly",
+            "Storing clothes to prevent damage",
+            "Maintaining garment quality"
+          ],
+          "responses": [
+            "Clothing care essentials: 1) Wash less frequently (spot clean when possible) 2) Use cold water and mild detergent 3) Air dry when possible 4) Fold knits to prevent stretching 5) Use proper hangers (padded for delicate items) 6) Store wool with cedar to prevent moths 7) Learn basic mending. Always check care labels. Invest in quality basics that withstand washing. Would you like a fabric-specific care guide (silk, wool, leather, etc.)?",
+            "Extend clothing life with: 1) Mesh laundry bags for delicates 2) Color-catching sheets in wash 3) Stain treatment pens for emergencies 4) A steamer instead of ironing when possible 5) Proper folding techniques 6) Seasonal storage in breathable garment bags 7) Regular maintenance (replacing buttons, fixing loose hems). Remember - proper care saves money long-term by reducing replacement needs. I can provide a complete clothing care manual with stain removal charts if you'd like."
+          ]
+        },
+        {
+          "tag": "thrifting_tips",
+          "patterns": [
+            "How to thrift shop successfully",
+            "Finding good thrift store items",
+            "Vintage shopping guide",
+            "Secondhand fashion tips",
+            "Best thrifting strategies",
+            "Consignment store advice",
+            "Shopping used clothing"
+          ],
+          "responses": [
+            "Successful thrifting requires: 1) Frequent visits (inventory changes daily) 2) Knowing your measurements (can't try on sometimes) 3) Checking all sections (men's, housewares) 4) Inspecting items thoroughly for flaws 5) Shopping off-season for deals 6) Visiting stores in affluent areas 7) Building relationships with staff. Focus on quality natural fabrics and classic styles. Would you like a guide to identifying high-quality secondhand pieces?",
+            "Thrifting like a pro: 1) Go early on restock days 2) Have a list of needed items 3) Learn fabric/content labels 4) Check seams and zippers carefully 5) Look for quality brands 6) Consider alteration potential 7) Negotiate politely on flaws. Remember that vintage sizing differs from modern - always measure. I can provide a complete thrifting checklist with brand recommendations to look for if you're interested."
+          ]
+        },
+        {
+          "tag": "luxury_investment",
+          "patterns": [
+            "What designer pieces are worth it?",
+            "Luxury items to invest in",
+            "High-end fashion worth buying",
+            "Designer investment pieces",
+            "Splurge-worthy fashion items",
+            "Luxury classics that last",
+            "When to buy designer"
+          ],
+          "responses": [
+            "Worthwhile luxury investments: 1) A classic leather handbag (Chanel flap, Louis Vuitton Neverfull) 2) Quality leather shoes (Ferragamo flats, Gucci loafers) 3) A tailored wool coat (Max Mara, Burberry) 4) Fine jewelry (Cartier love bracelet, Tiffany pearls) 5) Designer sunglasses (Persol, Ray-Ban) 6) A luxury watch (Rolex, Omega) 7) Cashmere sweaters (Loro Piana, Brunello Cucinelli). Focus on timeless styles rather than trends. Would you like a guide to authenticating pre-owned luxury goods?",
+            "Smart luxury purchases: 1) Buy at end-of-season sales 2) Consider pre-owned from reputable sites 3) Choose neutral colors for longevity 4) Verify authenticity carefully 5) Research resale value first 6) Start with one signature piece 7) Maintain items impeccably. Remember that true luxury is about craftsmanship, not logos - sometimes lesser-known brands offer better quality. I can provide a complete luxury investment guide with price comparisons if you're considering a major purchase."
+          ]
+        },
+        {
+          "tag": "fashion_history",
+          "patterns": [
+            "History of fashion trends",
+            "How styles have evolved",
+            "Vintage fashion eras",
+            "Decades style characteristics",
+            "Fashion timeline information",
+            "Historical clothing influences",
+            "Retro style guides"
+          ],
+          "responses": [
+            "Major fashion eras include: 1920s flapper drops-waist dresses, 1930s bias-cut gowns, 1940s utility wear, 1950s full skirts, 1960s mod styles, 1970s bohemian, 1980s power dressing, 1990s minimalism. Each decade reflected social changes - wartime rationing led to simpler 40s styles, while postwar prosperity brought Dior's New Look. Would you like a guide to incorporating vintage elements into modern outfits?",
+            "Fashion history highlights: The little black dress (1926 Chanel), blue jeans (1873 Levi Strauss), the miniskirt (1960s Mary Quant), the pantsuit (1930s Marlene Dietrich), the wrap dress (1970s Diane von Furstenberg). Understanding fashion history helps identify timeless elements worth investing in versus passing trends. I can provide decade-by-decade style guides with modern interpretation tips if you're interested."
+          ]
+        },
+        {
+          "tag": "fashion_industry",
+          "patterns": [
+            "How the fashion industry works",
+            "Fashion business insights",
+            "Clothing production process",
+            "Fashion calendar explained",
+            "Understanding fashion seasons",
+            "Behind the scenes of fashion",
+            "How trends are created"
+          ],
+          "responses": [
+            "The fashion industry operates on: 1) A strict seasonal calendar (Fall/Winter, Spring/Summer collections) 2) Trend forecasting 18 months ahead 3) Complex supply chains 4) Fast fashion vs. luxury timelines 5) Marketing and celebrity influence 6) Retail buying cycles 7) Sustainability challenges. Designers show collections 6 months before they hit stores. Would you like an explanation of how trends trickle down from runways to retail?",
+            "Fashion production involves: 1) Design and prototyping 2) Fabric sourcing 3) Manufacturing (often overseas) 4) Quality control 5) Distribution 6) Marketing 7) Retail. Ethical concerns include labor practices, environmental impact, and overproduction. The industry is moving toward slower production cycles and sustainable practices. I can provide a complete guide to understanding clothing labels and production ethics if you're interested."
+          ]
+        },
+        {
+          "tag": "personal_shopper",
+          "patterns": [
+            "How to shop like a stylist",
+            "Personal shopping techniques",
+            "Strategic clothes buying",
+            "Shopping with intention",
+            "Building wardrobe efficiently",
+            "Smart shopping habits",
+            "Avoiding fashion mistakes"
+          ],
+          "responses": [
+            "Shop like a stylist with these rules: 1) Always have a list 2) Know your color palette 3) Take inventory photos before shopping 4) Try everything on 5) Consider alterations potential 6) Check fabric content 7) Imagine 3 ways to wear each piece. Avoid impulse buys by sleeping on purchases over $100. Would you like a personalized shopping checklist based on your wardrobe gaps?",
+            "Strategic shopping involves: 1) Identifying your most-worn items first 2) Setting a budget per category 3) Shopping your closet before stores 4) Investing in quality basics 5) Buying trends secondhand 6) Waiting for sales on investment pieces 7) Keeping receipts for returns. Remember - the best-dressed women own less but choose well. I can provide a complete wardrobe planning worksheet if you're ready to shop smarter."
+          ]
+        },
+        {
+          "tag": "outfit_repeaters",
+          "patterns": [
+            "How to style same clothes differently",
+            "Outfit repeating tips",
+            "Wearing clothes multiple ways",
+            "Maximizing wardrobe pieces",
+            "Creating new looks from same items",
+            "Fashionable outfit repeating",
+            "Avoiding outfit boredom"
+          ],
+          "responses": [
+            "Style the same pieces differently by: 1) Changing layering (jackets, sweaters) 2) Switching up accessories 3) Trying new tuck/untuck combinations 4) Altering sleeve/pant lengths 5) Mixing unexpected color pairings 6) Adding/removing belts 7) Transforming day to night with shoes and jewelry. A white button-down can be styled 20+ ways! Would you like specific outfit formulas for your existing pieces?",
+            "Outfit repeating like a fashion editor: 1) Photograph favorite outfits to remember combinations 2) Create uniforms for different moods/occasions 3) Invest in transformative accessories 4) Learn styling tricks (knotting shirts, cuffing sleeves) 5) Rotate pieces seasonally to maintain freshness 6) Focus on quality basics that withstand frequent wear 7) Remember - stylish people repeat outfits, they just do it creatively. I can provide a complete guide to remixing your current wardrobe if you'd like."
+          ]
+        },
+        {
+          "tag": "fashion_confidence",
+          "patterns": [
+            "How to feel confident in clothes",
+            "Overcoming fashion insecurity",
+            "Dressing for self-esteem",
+            "Clothing confidence tips",
+            "Feeling good in what you wear",
+            "Style and self-image",
+            "Fashion for body positivity"
+          ],
+          "responses": [
+            "Build fashion confidence by: 1) Identifying what makes you feel powerful 2) Dressing for your current body, not a future one 3) Focusing on fit over size numbers 4) Wearing colors that make you glow 5) Having power outfits ready for low-confidence days 6) Following diverse style influencers 7) Remembering clothes should serve you, not vice versa. Confidence comes from within - clothes are just the icing. Would you like body-positive styling tips?",
+            "Feeling great in your clothes: 1) Clean and press items so they look their best 2) Get important pieces tailored 3) Wear undergarments that create smooth lines 4) Choose fabrics that feel good on your skin 5) Develop a signature style so getting dressed is easier 6) Don't compare your everyday to others' highlight reels 7) Remember - the most stylish accessory is confidence. I can provide a complete guide to dressing for your unique body with love if you'd like."
+          ]
+        },
+        {
+          "tag": "age_appropriate",
+          "patterns": [
+            "How to dress for your age",
+            "Age-appropriate fashion",
+            "Style in your 30s/40s/50s+",
+            "Mature but fashionable",
+            "Sophisticated style tips",
+            "Looking stylish at any age",
+            "Fashion for different life stages"
+          ],
+          "responses": [
+            "Age-appropriate style isn't about rules but refinement: 1) Invest in quality over quantity 2) Tailor pieces for perfect fit 3) Balance trends with timelessness 4) Show skin strategically 5) Update hairstyle and glasses frames regularly 6) Choose fabrics that drape beautifully 7) Let confidence be your guide. Your 40s are for sophisticated pieces, 50s+ for effortless elegance. Would you like decade-specific style guides?",
+            "Stylish aging means: 1) Knowing what works for your lifestyle 2) Embracing your changing body 3) Updating colors as your complexion changes 4) Choosing comfortable yet polished shoes 5) Investing in good skincare - the best accessory 6) Letting go of too young trends gracefully 7) Remembering sophistication never goes out of style. I can provide a complete guide to evolving your style beautifully through decades if you're interested."
+          ]
+        },
+        {
+          "tag": "cultural_fashion",
+          "patterns": [
+            "Traditional clothing guides",
+            "Cultural dress appreciation",
+            "Ethnic fashion styles",
+            "Global clothing traditions",
+            "Cultural appropriation vs appreciation",
+            "Wearing traditional clothes respectfully",
+            "World fashion history"
+          ],
+          "responses": [
+            "Cultural fashion appreciation requires: 1) Understanding a garment's history and significance 2) Buying from artisans of that culture when possible 3) Avoiding sacred/ceremonial items as costume 4) Learning proper wearing techniques 5) Giving credit to the culture 6) Supporting ethical brands 7) Recognizing the difference between appreciation and appropriation. Would you like guidelines for specific cultural garments?",
+            "Beautiful global traditions include: Japanese kimono, Indian sari, Scottish kilt, Korean hanbok, Mexican huipil, Ghanaian kente, Palestinian thobe. Each carries deep cultural meaning and craftsmanship. When incorporating elements into your wardrobe, do so respectfully and educate yourself on their origins. I can provide resources for ethically sourcing traditional textiles if you're interested."
+          ]
+        },
+        {
+          "tag": "fashion_technology",
+          "patterns": [
+            "Techwear fashion guide",
+            "Smart clothing options",
+            "Innovative fashion technology",
+            "Wearable tech style",
+            "Future of fashion tech",
+            "High-tech clothing",
+            "Sustainable fashion innovations"
+          ],
+          "responses": [
+            "Fashion technology includes: 1) Temperature-regulating fabrics 2) Self-cleaning textiles 3) Solar-powered clothing 4) 3D-printed garments 5) Smart jewelry with tracking 6) LED-embedded designs 7) Biodegradable materials. Brands like Ministry of Supply and Wearable X merge style with innovation. Would you like recommendations for tech-enhanced everyday wear?",
+            "The future of fashion tech: 1) Custom-fit clothing via body scanning 2) Augmented reality dressing rooms 3) Color-changing fabrics 4) Health-monitoring garments 5) Zero-waste production methods 6) Lab-grown leather alternatives 7) Blockchain for supply chain transparency. These innovations aim to make fashion more personalized, sustainable, and functional. I can provide a guide to the most promising fashion tech startups if you're interested."
+          ]
+        },
+        {
+          "tag": "celebrity_style",
+          "patterns": [
+            "How to dress like celebrities",
+            "Celebrity fashion inspiration",
+            "Red carpet style guides",
+            "Affordable celebrity looks",
+            "Copying star outfits",
+            "Celebrity stylist secrets",
+            "Get the look for less"
+          ],
+          "responses": [
+            "Get celebrity style by: 1) Identifying stars with similar body types 2) Focusing on silhouette over exact pieces 3) Shopping high-low (designer dupes) 4) Investing in tailoring 5) Mastering the art of layering 6) Choosing one statement piece per outfit 7) Working with a color palette that flatters you. Remember celebrities have stylists and tailors - adapt looks to be practical for real life. Would you like specific get the look breakdowns for current stars?",
+            "Celebrity style secrets: 1) Double-sided tape prevents wardrobe malfunctions 2) Shapewear creates red-carpet silhouettes 3) Tailoring makes cheap clothes look expensive 4) Stylists often mix high-end and vintage 5) The right undergarments are crucial 6) Most casual celebrity looks are carefully planned 7) Accessories make the outfit. I can provide affordable alternatives to famous outfits if you'd like inspiration."
+          ]
+        },
+        {
+          "tag": "fashion_icons",
+          "patterns": [
+            "Most stylish women in history",
+            "Fashion icon inspirations",
+            "Timeless style icons",
+            "Learn from fashion legends",
+            "Historical style figures",
+            "Celebrity fashion influences",
+            "Best dressed of all time"
+          ],
+          "responses": [
+            "Timeless fashion icons include: Audrey Hepburn (little black dress), Jackie Kennedy (pillbox hats), Diana Ross (glam disco), Princess Diana (revenge dress), Coco Chanel (tweed suits), Bianca Jagger (power suits), Rihanna (rule-breaking). Each redefined style for their era. Would you like breakdowns of their signature looks?",
+            "Learn from fashion legends: 1) Grace Kelly's elegant simplicity 2) Elizabeth Taylor's bold jewelry 3) Katharine Hepburn's androgynous tailoring 4) Diana Vreeland's maximalism 5) Michelle Obama's accessible sophistication 6) Iris Apfel's eclectic mix 7) Fran Lebowitz's uniform dressing. Their styles teach us that confidence matters more than trends. I can provide modern interpretations of iconic looks if you'd like inspiration."
+          ]
+        },
+        {
+          "tag": "fashion_photography",
+          "patterns": [
+            "How to pose for photos",
+            "Photogenic outfit tips",
+            "Looking good in pictures",
+            "Instagram fashion poses",
+            "Clothing that photographs well",
+            "Modeling techniques for regular people",
+            "Best colors for photos"
+          ],
+          "responses": [
+            "Photogenic outfit tips: 1) Solid colors photograph better than busy prints 2) Structured fabrics hold their shape 3) Medium contrast works best (very light/dark can lose detail) 4) Interesting textures add dimension 5) Defined waistlines are flattering 6) Shoes matter in full-length shots 7) Accessories add polish. Practice poses in a mirror to find your angles. Would you like a guide to the most flattering poses for different body types?",
+            "Posing like a model: 1) Stand at a slight angle 2) Put weight on back leg 3) Create space between arms and body 4) Elongate your neck 5) Relax shoulders down 6) Slightly push hips back 7) Move naturally between shots. Avoid straight-on poses and clenched hands. Wear clothes that make you feel confident - it shows in photos. I can provide a complete guide to looking photogenic in any outfit if you'd like."
+          ]
+        },
+        {
+          "tag": "fashion_etiquette",
+          "patterns": [
+            "Clothing etiquette rules",
+            "Dress code guidelines",
+            "Fashion dos and don'ts",
+            "Style etiquette advice",
+            "What not to wear where",
+            "Cultural dress norms",
+            "Professional appearance standards"
+          ],
+          "responses": [
+            "Key fashion etiquette: 1) Respect dress codes (black tie, business casual) 2) Consider cultural/religious sensitivities 3) Avoid overly revealing clothes in professional settings 4) Remove hats indoors 5) Dress slightly better than required 6) Ensure clothes are clean and pressed 7) When in doubt, ask the host/organizer. Good style includes being appropriate for the context. Would you like specific dress code explanations?",
+            "Modern style etiquette: 1) No strong perfume in close quarters 2) Keep phone/keys out of pockets during formal events 3) Avoid loud jewelry in quiet settings 4) Remove sunglasses when speaking to someone 5) Consider removing blazers at dinner 6) Bring a wrap to places of worship 7) Dress for the most formal part of an event. Remember etiquette is about making others comfortable, not restricting personal style. I can provide a complete guide to navigating dress codes if you'd like."
+          ]
+        },
+        {
+          "tag": "fashion_mistakes",
+          "patterns": [
+            "Common style errors",
+            "Fashion faux pas",
+            "What not to wear",
+            "Biggest wardrobe mistakes",
+            "Style pitfalls to avoid",
+            "Dressing don'ts",
+            "Fashion blunders"
+          ],
+          "responses": [
+            "Common fashion mistakes: 1) Visible panty lines 2) Wrinkled clothing 3) Wrong undergarments 4) Ill-fitting clothes 5) Overly trendy after certain age 6) Worn-out shoes 7) Mismatched formality levels. The fix? Invest in quality basics, get tailoring, and choose clothes that fit your current body. Would you like solutions for specific fashion problems?",
+            "Style pitfalls to avoid: 1) Dressing for a body you don't have 2) Wearing uncomfortable shoes all day 3) Buying for fantasy life vs real life 4) Following trends that don't suit you 5) Neglecting proportions 6) Over-accessorizing 7) Copying others exactly. Remember - personal style is about expressing yourself authentically. I can provide a guide to identifying and fixing your specific style mistakes if you'd like."
+          ]
+        },
+        {
+          "tag": "fashion_future",
+          "patterns": [
+            "Future fashion trends",
+            "Where is fashion headed",
+            "Next big style movements",
+            "Upcoming fashion directions",
+            "Predicting future trends",
+            "Fashion in 5 years",
+            "Next generation style"
+          ],
+          "responses": [
+            "Future fashion directions: 1) Increased sustainability 2) More gender-fluid designs 3) Tech-integrated clothing 4) Hyper-personalization 5) Rental/subscription models 6) Digital fashion for avatars 7) Biodegradable materials. The industry is moving toward circular systems where clothes are recycled endlessly. Would you like insights into specific future-forward brands?",
+            "The next decade in fashion: 1) AI-designed custom fits 2) Lab-grown leather and fur 3) Clothes that adapt to weather 4) 3D printing at home 5) Smart fabrics monitoring health 6) Virtual try-ons becoming standard 7) Less seasonal, more timeless designs. Sustainability and technology will drive innovation while traditional craftsmanship sees a revival. I can provide a complete report on the most exciting fashion future predictions if you're interested."
+          ]
+        }
+      
+  ]
+}
